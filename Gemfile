@@ -10,6 +10,9 @@ gem 'jbuilder',             '2.1.3'
 gem 'rails-html-sanitizer', '1.0.1'
 gem 'sdoc',                 '0.4.0', group: :doc
 gem 'rails_12factor', group: :production
+gem 'sqlite3',     '1.3.9'
+#gem "pg", "~> 0.15.1"
+#gem "cf-autoconfig", "~> 0.2.1"
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'

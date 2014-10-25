@@ -1,0 +1,8 @@
+---
+applications:
+- name: hello_app
+  memory: 128M
+  instances: 1
+  host: hello_app
+  domain: cfapps.io
+  path: "."
